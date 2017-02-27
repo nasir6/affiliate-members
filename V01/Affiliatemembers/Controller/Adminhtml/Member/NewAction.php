@@ -23,10 +23,7 @@ class NewAction extends \Magento\Backend\App\Action
     /**
      * {@inheritdoc}
      */
-    // protected function _isAllowed()
-    // {
-    //     return $this->_authorization->isAllowed('V01_Affiliatemembers::save');
-    // }
+   
 
     /**
      * Forward to edit

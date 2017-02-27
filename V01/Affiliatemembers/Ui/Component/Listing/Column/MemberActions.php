@@ -61,8 +61,8 @@ class MemberActions extends Column
                         'href' => $this->urlBuilder->getUrl(self::MEMBER_URL_PATH_DELETE, ['member_id' => $item['member_id']]),
                         'label' => __('Delete'),
                         'confirm' => [
-                            'title' => __('Delete "${ $.$data.title }"'),
-                            'message' => __('Are you sure you wan\'t to delete a "${ $.$data.title }" record?')
+                            'title' => __('Delete "${ $.$data.name }"'),
+                            'message' => __('Are you sure you wan\'t to delete a "${ $.$data.name }" member?')
                         ]
                     ];
                 }

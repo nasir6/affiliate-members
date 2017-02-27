@@ -25,7 +25,6 @@ class Edit extends \Magento\Backend\Block\Widget\Form\Container
     }
 
     /**
-     * Initialize blog post edit block
      *
      * @return void
      */
@@ -52,15 +51,10 @@ class Edit extends \Magento\Backend\Block\Widget\Form\Container
             ],
             -100
         );
-        // } else {
-        //     $this->buttonList->remove('save');
-        // }
+       
 
-        // if ($this->_isAllowedAction('Ashsmith_Blog::post_delete')) {
             $this->buttonList->update('delete', 'label', __('Delete Member'));
-        // } else {
-            // $this->buttonList->remove('delete');
-        // }
+        
     }
 
     /**
